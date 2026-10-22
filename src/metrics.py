@@ -1,8 +1,7 @@
 
     ## Räknar ut totala revenue från CSV-filen.
-def total_revenue(header, data):
-    revenue_index = header.index('revenue')
+def total_revenue(data):
     total = 0
     for row in data:
-        total += float(row[revenue_index])
+        total += float(row['revenue'])
     return total
