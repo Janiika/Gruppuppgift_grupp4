@@ -6,9 +6,8 @@ Gruppuppgift Python - grupp 4
 Python version 3.14
 
 
-Namn & roller/asnvar i teamet:
+Namn & roller/ansvar i teamet:
 
 Adem Seven - 
-Elsa Warne -
-Janiika Sinna Päivänsäde - 
+Janiika Sinna Päivänsäde - Satt upp GitHub repository. Nyckeltal, visualisering & rekommendation: Intäkt per kategori.
 Wilma Olivia Elisabeth Groos - 
