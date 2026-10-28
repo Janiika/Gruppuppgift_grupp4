@@ -1,9 +1,11 @@
 
-    ## Räknar ut totala revenue från CSV-filen.
-def total_revenue(data):
+    ## Funktion som räknar ut totalt antal från en kolumn
+def get_total(data, column):
     total = 0
+
     for row in data:
-        total += float(row['revenue'])
+        total += float(row[column])
+
     return total
 
 
@@ -29,3 +31,4 @@ def revenue_per_category(data):
         })
 
     return summary
+
