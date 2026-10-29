@@ -9,26 +9,25 @@ def get_total(data, column):
     return total
 
 
-    ## Räknar ut totala intäkten per kategori.
-def revenue_per_category(data):
+    ## Räknar ut totala intäkten per valfri kolumn
+def revenue_per_column(data, column):
     totals = {}
     
     for row in data:
-        category = row["category"]
+        group = row[column]
         total = float(row["revenue"])
 
-        if category not in totals:
-            totals[category] = total
+        if group not in totals:
+            totals[group] = total
         else:
-            totals[category] += total
+            totals[group] += total
 
     summary = []
 
-    for category, total in totals.items():
+    for group, total in totals.items():
         summary.append({
-            "category": category,
+            "group": group,
             "total": total
         })
 
     return summary
-
