@@ -2,8 +2,8 @@
 
 En snabbrapport på Ecommerces försäljningsiffror. Frågorna som svaras på denna rapport är:
 - Vad säljer? – vilka kategorier driver mest intäkt?
-- Var säljer vi? – vilka städer står för störst intäkt?
-- När säljer vi? – finns det några tydliga tidsmönster under den observerade perioden?
+- Var säljer? – vilka städer står för störst intäkt?
+- När säljer? – finns det några tydliga tidsmönster under den observerade perioden?
 - Hur ser en typisk order ut? – AOV (Average Order Value) och spridning.
 - Topp-listor – topp-3 kategorier efter intäkt.
 - Eventuella avvikelser – något oväntat mönster som sticker ut?
