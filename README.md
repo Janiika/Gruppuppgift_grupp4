@@ -8,13 +8,13 @@ En snabbrapport på Ecommerces försäljningsiffror. Frågorna som svaras på de
 - Topp-listor – topp-3 kategorier efter intäkt.
 - Eventuella avvikelser – något oväntat mönster som sticker ut?
 
-OBS! Projeket påbörjades innan vi hade gått genom Pandas på kursen. Därför har datahanteringen genomförts med grundläggande python-strukturer istället för Pandas DataFrames.
+OBS! Projeket påbörjades innan vi hade gått genom Pandas på kursen. Därför valde vi att fortsätta arbetet med grundläggande python-strukturer istället för Pandas DataFrames som annars hade passat bättre för denna uppgift.
 
 ## Miljö
 - Python version 3.14.7
 - Paket: `matplotlib` (se `requirements.txt`)
 
 # Namn & roller/ansvar i teamet (Grupp 4):
-- **Adem Seven:** Nyckeltal, visualisering & rekommendation: *AOV* och *TOP-3 kategorier efter intäkt*
-- **Janiika Sinna Päivänsäde:** Satt upp GitHub repository. Nyckeltal, visualisering & rekommendation: *Intäkt per kategori*
-- **Wilma Olivia Elisabeth Groos:** Nyckeltal, visualisering & rekommendation: *Total intäkt & antal enheter* och *Intäkt per stad*, samt funktionerna att bl.a. ladda datan från fil.
+- **Adem Seven:** Nyckeltal, funktion, visualisering & rekommendation: *AOV*
+- **Janiika Sinna Päivänsäde:** Satt upp GitHub repository. Nyckeltal, funktion, visualisering & rekommendation: *Intäkt per kategori* och *TOP-3 kategorier efter intäkt*
+- **Wilma Olivia Elisabeth Groos:** Nyckeltal, funktion, visualisering & rekommendation: *Total intäkt & antal enheter* och *Intäkt per stad*, samt funktionerna att bl.a. ladda datan från fil.
