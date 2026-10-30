@@ -11,6 +11,7 @@ def plot_revenue_per_column(summary, column, title):
     ax.set_title(title)
     ax.set_xlabel(column)
     ax.set_ylabel("Revenue")
+    ax.ticklabel_format(style="plain", axis="y")
     ax.grid(True, axis="y")
     plt.tight_layout()
     plt.show()
